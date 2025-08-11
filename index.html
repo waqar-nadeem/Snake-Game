@@ -170,7 +170,6 @@
             if(direction === 'RIGHT') head.x += box;
             if(direction === 'DOWN') head.y += box;
 
-            // Game over conditions
             if(head.x < 0 || head.x >= canvasWidth || head.y < 0 || head.y >= canvasHeight || collision(head, snake)) {
                 gameOver();
                 return;
@@ -290,5 +289,6 @@
     </footer>
 </body>
 </html>
+
 
 
